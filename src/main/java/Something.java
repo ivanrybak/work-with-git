@@ -1,12 +1,12 @@
 public class Something {
   private   String shape;
     private String color;
-  private int age;
+     private int age;
 
     public Something(String shape, String color, int age) {
         this.shape = shape;
         this.color = color;
-      this.age=age;
+        this.age = age;
       
 
     }
@@ -28,6 +28,9 @@ public class Something {
     }
    public int getAge() {
         return age;
+    }
+   public void setAge(int age) {
+        this.age = age;
     }
  void See(){
     System.out.println(color+"\n  " + shape+"\n "+ age);
